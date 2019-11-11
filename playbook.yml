@@ -3,3 +3,4 @@
   become_method: runas
   roles:
   - { role: mysql_windows}
+  - { role: apache_tomcat}
