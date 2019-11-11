@@ -1,0 +1,5 @@
+- name: build web-portal to the portal server
+  hosts: web_portal
+  become_method: runas
+  roles:
+  - { role: mysql_windows}
