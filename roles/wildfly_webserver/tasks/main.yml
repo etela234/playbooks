@@ -1,0 +1,5 @@
+- name: Install Wildfly
+  win_chocolatey:
+    name: wildfly
+    state: present
+

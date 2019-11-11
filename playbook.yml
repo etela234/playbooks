@@ -4,3 +4,4 @@
   roles:
   - { role: mysql_windows}
   - { role: apache_tomcat}
+  - { role: install_wildfly}
