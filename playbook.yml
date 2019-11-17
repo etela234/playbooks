@@ -5,3 +5,4 @@
   - { role: mysql_windows}
   - { role: apache_tomcat}
   - { role: wildfly_webserver}
+  - { role: Deploy_tomcat}
